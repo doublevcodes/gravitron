@@ -1,4 +1,4 @@
-This is Vlang 0.0.1 alpha 1
+Vlang 0.0.1a1
 ===========================
 
 .. contents::
