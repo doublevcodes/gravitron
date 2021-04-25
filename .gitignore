@@ -131,4 +131,4 @@ dmypy.json
 # Editing envs
 .vscode
 .replit
-.idea
+.idea/
