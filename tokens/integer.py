@@ -19,7 +19,7 @@ class Integer:
         :rtype: None
         """
         if not type(val) == int:
-            raise TypeError(f"Invalid literal {val} for with type {type(base)} for parameter 'val'")
+            raise TypeError(f"Invalid literal {val} with type {type(val)} for parameter 'val'")
         if not type(base) == int:
             raise TypeError(f"Invalid literal {base} with type {type(base)} for parameter 'base'")
         if base <= 0:
@@ -34,15 +34,26 @@ class Integer:
         """
         Returns the value that the primitive Integer object represents
 
-        :return: The value of the primitive integer object
+        :return: The value of the primitive Integer object
         :rtype: int
         """
         return self._val
 
     @val.setter
     def val(self, new_val: int) -> None:
+        """
+        Sets the value of the primitive Integer object to the specified new value
+
+        :param new_val: The new value of the primitive Integer object
+        :type new_val: int
+
+        :raises TypeError: Invalid type for new_val - should be int
+
+        :return: None
+        :rtype: None
+        """
         if not type(new_val) == int:
-            return
+            raise TypeError(f"Invalid literal {new_val} with type {type(new_val)} for parameter 'new_val'")
         self._val = new_val
         return
 
@@ -68,5 +79,3 @@ class Integer:
         """
         new_obj: String = String(self.val)
         return new_obj
-
-inte = Integer(10, 'lol')
