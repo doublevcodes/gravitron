@@ -1,61 +1,61 @@
-Vlang 0.0.1a1
+Gravitron 0.0.1a1
 ===========================
 
 .. contents::
 
 General Information
 -------------------
-Vlang is an easy-to-use, object-oriented programming language. 
+Gravitron is an easy-to-use, object-oriented and dynamically typed programming language. 
 
 **Some relevant links:**
 
 * `Source code`_
 * `Issue tracker`_
 
-.. _Source code: https://github.com/doublevcodes/vlang/
-.. _Issue tracker: https://github.com/doublevcodes/vlang/issues/
+.. _Source code: https://github.com/doublevcodes/gravitron/
+.. _Issue tracker: https://github.com/doublevcodes/gravitron/issues/
 
-Contributing to Vlang
+Contributing to gravitron
 ---------------------
-For information on how to start contributing to Vlang development we recommend reading our `Contributing Guidelines`_. A good first step would be to create a fork of this repository.
+For information on how to start contributing to Gravitron development we recommend reading our `Contributing Guidelines`_. A good first step would be to create a fork of this repository.
 
-.. _Contributing Guidelines: https://github.com/doublevcodes/vlang/blob/main/CONTRIBUTING.rst/
+.. _Contributing Guidelines: https://github.com/doublevcodes/gravitron/blob/main/CONTRIBUTING.rst/
 
-Using Vlang 
+Using Gravitron 
 -----------
-Firstly, thanks for using Vlang! If you'd like to use Vlang you can install the latest release from this repository's `releases`_.
+Firstly, thanks for using Gravitron! If you'd like to use Gravitron you can install the latest release from this repository's `releases`_.
 
-.. _releases: https://github.com/doublevcodes/vlang/releases/
+.. _releases: https://github.com/doublevcodes/gravitron/releases/
 
 Build Instructions
 ------------------
-Vlang inherits an important feature from Python (the language it was written in), it is available on all platforms without any fluctuations in quality.
+Gravitron inherits an important feature from Python (the language it was written in), it is available on all platforms without any fluctuations in quality.
 
 UNIX-like systems (OS X, Linux)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 1. Clone the repository::
 
-    $ git clone https://github.com/doublevcodes/vlang
+    $ git clone https://github.com/doublevcodes/gravitron
 
-2. Configure Vlang::
+2. Configure Gravitron::
 
     $ ./config-unix
 
-3. Test Vlang has been installed::
+3. Test Gravitron has been installed::
 
-    $ vlang --version
+    $ gravity --version
 
 
 Windows
 ^^^^^^^
 1. Clone the repository::
 
-    > git clone https://github.com/doublevcodes/vlang
+    > git clone https://github.com/doublevcodes/gravitron
 
-2. Configure Vlang::
+2. Configure Gravitron::
 
     > ./config-win
 
-2. Test Vlang has been installed::
+2. Test Gravitron has been installed::
 
-    > vlang --version
+    > gravity --version
