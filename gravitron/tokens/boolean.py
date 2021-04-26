@@ -24,9 +24,7 @@ class Boolean:
         The value the primitive Boolean object represents.
         Either True or False
 
-        :raises TypeError: Invalid type for new_val - should be bool
-
-        :returns: The value of the primitive Integer object
+        :returns: The value of the primitive Boolean object
         :rtype: bool
         """
         return self._val
@@ -38,7 +36,14 @@ class Boolean:
         making sure that the new value is a boolean.
 
         :param new_val: The new value of the primitive Boolean object
-        :return:
+        :type new_val: bool
+
+        :raises TypeError: Invalid type for new_val - should be bool
+
+        :returns: None
+        :rtype: None
         """
         if type(new_val) != bool:
             raise TypeError(f"Invalid literal {new_val} with type '{new_val.__class__.__name__}' for parameter 'new_val'")
+        self._val: bool = new_val
+        return
