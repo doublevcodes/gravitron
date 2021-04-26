@@ -19,9 +19,9 @@ class Integer:
         :rtype: None
         """
         if not type(val) == int:
-            raise TypeError(f"Invalid literal {val} with type {type(val)} for parameter 'val'")
+            raise TypeError(f"Invalid literal {val} with type '{val.__class__.__name__}' for parameter 'val'")
         if not type(base) == int:
-            raise TypeError(f"Invalid literal {base} with type {type(base)} for parameter 'base'")
+            raise TypeError(f"Invalid literal {base} with type '{base.__class__.__name__}' for parameter 'base'")
         if base <= 0:
             raise ValueError(f"Invalid literal {base} for parameter 'base' - should be greater than 0")
         self._val: int = val
@@ -53,7 +53,7 @@ class Integer:
         :rtype: None
         """
         if not type(new_val) == int:
-            raise TypeError(f"Invalid literal {new_val} with type {type(new_val)} for parameter 'new_val'")
+            raise TypeError(f"Invalid literal {new_val} with type '{type(new_val)}' for parameter 'new_val'")
         self._val = new_val
         return
 
