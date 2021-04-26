@@ -59,6 +59,12 @@ class Integer:
 
     @property
     def base(self) -> int:
+        """
+        Returns the base of the primitive Integer object
+
+        :return: The base of the primitive Integer object
+        :rtype: int
+        """
         return self._base
 
     @base.setter
