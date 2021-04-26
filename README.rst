@@ -59,3 +59,4 @@ Windows
 2. Test Gravitron has been installed::
 
     > gravity --version
+
